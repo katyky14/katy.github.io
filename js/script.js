@@ -14,7 +14,8 @@ const sideMenuRight = document.getElementById('side-menu-right');
 console.log(sideMenuRight);
 
 function displaySideMenuRight(){
-console.log ("display was clicked"); sideMenuRight.classList.add("show-menu");
+console.log ("display was clicked"); 
+sideMenuRight.classList.add("show-menu");
 }
 
 function hideSideMenuRight(){
